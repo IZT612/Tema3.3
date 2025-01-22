@@ -17,7 +17,7 @@ public class Ejercicio04 {
 		while (numeros.size() < 20) {
 			
 			// Añadimos un número menor que 10
-			numeros.add(rand.nextInt(Integer.MIN_VALUE, 10));
+			numeros.add(rand.nextInt(0, 100));
 			
 		}
 		
